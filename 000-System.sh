@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 u_install() {
-    if pacman -Qi $1 &> /dev/null; then
+    if sudo pacman -Qi $1 &> /dev/null; then
         echo "Package "$1" just installed"
     else
         echo "Installing package "$1""
