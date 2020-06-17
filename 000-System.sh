@@ -57,6 +57,8 @@ exa
 docker
 bat
 jq
+x11-ssh-askpass
+rofi
 )
 
 for name in "${list[@]}" ; do
