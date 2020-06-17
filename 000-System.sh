@@ -64,3 +64,5 @@ echo "set docker permissions"
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
+echo "change defaul shell"
+chsh -s $(which zsh)
