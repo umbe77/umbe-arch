@@ -15,6 +15,7 @@ qtile
 sxhkd
 nitrogen
 zsh
+nemo
 arcolinux-logout-git
 dunst
 unclutter
