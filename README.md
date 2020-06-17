@@ -5,5 +5,5 @@
   - add current user to whhel group
 - Run ./install.sh
 - Post-Intallation script
-  - use ```bash nvm install 12 ``` to install node 12 or the version you want at moment of installation
-  - ```bash sudo snap install code --classic ``` to install vscode
+  - use ```nvm install 12 ``` to install node 12 or the version you want at moment of installation
+  - ```sudo snap install code --classic ``` to install vscode
