@@ -13,3 +13,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $XDG_CONFIG_HOME/zsh/
 echo "Installing zsh highlight"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $XDG_CONFIG_HOME/zsh/zsh-syntax-highlighting
 
+echo "installing nvm"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash

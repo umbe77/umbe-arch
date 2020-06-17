@@ -56,6 +56,7 @@ ripgrep
 exa
 docker
 bat
+jq
 )
 
 for name in "${list[@]}" ; do
