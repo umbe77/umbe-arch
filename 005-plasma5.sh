@@ -23,3 +23,7 @@ packagekit-qt5
 partitionmanager
 systemd-kcm
 )
+
+for name in "${list[@]}" ; do
+    u_install $name
+done
