@@ -55,6 +55,7 @@ papirus-icon-theme
 ripgrep
 exa
 docker
+bat
 )
 
 for name in "${list[@]}" ; do
