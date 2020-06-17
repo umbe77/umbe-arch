@@ -59,6 +59,9 @@ bat
 jq
 x11-ssh-askpass
 rofi
+tmux
+lxqt-openssh-askpass
+x11-ssh-askpass
 )
 
 for name in "${list[@]}" ; do
