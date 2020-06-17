@@ -9,6 +9,7 @@ u_install() {
     fi
 }
 
+
 list=(
 qtile
 sxhkd
@@ -52,23 +53,14 @@ materia-gtk-theme
 papirus-icon-theme
 ripgrep
 exa
+docker
 )
 
 for name in "${list[@]}" ; do
     u_install $name
 done
 
-echo "Installing fzf"
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-
-echo "Installing stardhip prompt"
-curl -fsSL https://starship.rs/install.sh | bash
-
-echo "Installing ranger file manager"
-sudo pip3 install ranger-fm
-echo "Installing ueberzug"
-sudo pip3 install ueberzug
-echo "Installing pywal"
-sudo pip3 install pywal
+echo "set docker permissions"
+sudo groupadd docker
+sudo usermod -aG docker $USER
 
