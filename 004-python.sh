@@ -6,5 +6,7 @@ echo "Installing ueberzug"
 sudo pip3 install ueberzug
 echo "Installing pywal"
 sudo pip3 install pywal
+echo "Installing xparser module"
+sudo pip3 xparser
 echo "Installing neovim python provider"
 python3 -m pip install --user --upgrade pynvim

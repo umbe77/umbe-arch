@@ -88,6 +88,5 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 echo "change defaul shell"
-sh="s" ; (echo $SHELL | grep zsh) && sh="zsh"
-[ "$sh" -ne  "zsh" ] && chsh -s $(which zsh)
+chsh -s $(which zsh)
 

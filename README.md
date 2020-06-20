@@ -9,4 +9,4 @@
   - Get My st patch from https://github.com/umbe77/st and install it with sudo make clean install
 - Run ./install.sh
 - Post-Intallation commands
-
+  - `nvm use 12` in order to install nodejs 12
