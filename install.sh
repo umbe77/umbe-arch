@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-./000-System.sh
-./001-AUR.sh
-./002-maunal.sh
-./003-python.sh
-./004-postinstall.sh
-./005-get-dotfiles.sh
+./000-get-dotfiles.sh
+./001-System.sh
+./002-AUR.sh
+./003-maunal.sh
+./004-python.sh
+./005-postinstall.sh
