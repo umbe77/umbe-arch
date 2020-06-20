@@ -11,6 +11,18 @@ u_install() {
 
 
 list=(
+lightdm
+arcolinux-lightdm-gtk-greeter-plasma
+arcolinux-lightdm-gtk-greeter-settings
+arcolinux-wallpapers-git
+plasma-meta
+dolphin
+dolphin-plugins
+konsole
+kde-gtk-config
+kde-system-meta
+kdeconnect
+packagekit-qt5
 qtile
 sxhkd
 nitrogen
@@ -49,7 +61,8 @@ zenity
 neovim
 sshfs
 ttf-fira-code
-xcursor-breeze
+breeze
+w3m
 materia-gtk-theme
 papirus-icon-theme
 ripgrep
@@ -62,6 +75,17 @@ rofi
 tmux
 lxqt-openssh-askpass
 x11-ssh-askpass
+mintstick-git
+pamac-aur
+unace
+unrar
+zip
+unzip
+sharutils
+uudeview
+arj
+cabextract
+file-roller
 )
 
 for name in "${list[@]}" ; do
