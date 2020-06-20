@@ -11,18 +11,8 @@ u_install() {
 
 
 list=(
-lightdm
-arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
-arcolinux-wallpapers-git
 plasma-meta
-dolphin
-dolphin-plugins
-konsole
-kde-gtk-config
-kde-system-meta
-kdeconnect
-packagekit-qt5
+kde-applications
 qtile
 sxhkd
 nitrogen
@@ -86,6 +76,7 @@ uudeview
 arj
 cabextract
 file-roller
+htop
 )
 
 for name in "${list[@]}" ; do
@@ -97,4 +88,6 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 echo "change defaul shell"
-chsh -s $(which zsh)
+sh="s" ; (echo $SHELL | grep zsh) && sh="zsh"
+[ "$sh" -ne  "zsh" ] && chsh -s $(which zsh)
+

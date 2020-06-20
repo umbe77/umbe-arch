@@ -5,4 +5,4 @@
 ./002-maunal.sh
 ./003-python.sh
 ./004-postinstall.sh
-
+./005-get-dotfiles.sh
