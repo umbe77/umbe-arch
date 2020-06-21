@@ -1,4 +1,4 @@
-# Installing My required application in a new system
+j Installing My required application in a new system
 
 ### This installation process is based on an ArcolinuxD installation without any choice in calamares
 
@@ -9,4 +9,6 @@
   - Get My st patch from https://github.com/umbe77/st and install it with sudo make clean install
 - Run ./install.sh
 - Post-Intallation commands
-  - `nvm use 12` in order to install nodejs 12
+  - Install nvm and node
+    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    - `nvm install 12` in order to install nodejs 12
