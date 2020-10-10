@@ -11,19 +11,19 @@ u_install() {
 
 
 list=(
+sddm
 plasma-meta
-kde-applications
+kde-applications-meta
 bspwm
 sxhkd
 nitrogen
 zsh
-nemo
-arcolinux-logout-git
 unclutter
 picom
 alacritty
 kitty
 chromium
+firefox
 arandr
 gtk-engine-murrine
 imagemagick
@@ -36,6 +36,11 @@ alsa-lib
 alsa-plugins
 alsa-utils
 volumeicon
+pulseaudio-bluetooth
+bluez
+bluez-libs
+bluez-utils
+blueberry
 python-pip
 qutebrowser
 zenity
@@ -64,15 +69,27 @@ uudeview
 arj
 cabextract
 htop
+tlp
 )
 
 for name in "${list[@]}" ; do
     u_install $name
 done
 
+echo "Enable Bluetooth service"
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+sudo sed -i 's/'#AutoEnable=false'/'AutoEnable=true'/g' /etc/bluetooth/main.conf
+
+echo "Enable tlp service"
+sudo systemctl enable tlp.service
+
 echo "set docker permissions"
 sudo groupadd docker
 sudo usermod -aG docker $USER
+
+echo "Enable SDDM"
+sudo systemctl enable sddm.service
 
 echo "change defaul shell"
 chsh -s $(which zsh)
