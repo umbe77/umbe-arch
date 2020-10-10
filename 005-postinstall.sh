@@ -8,3 +8,6 @@ polybar_weather 1
 
 #nvm use 12
 #sudo snap install code --classic
+
+#linecommd to be launch
+#curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
