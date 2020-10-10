@@ -13,29 +13,20 @@ u_install() {
 list=(
 plasma-meta
 kde-applications
-qtile
+bspwm
 sxhkd
 nitrogen
 zsh
 nemo
 arcolinux-logout-git
-dunst
 unclutter
-xautolock
 picom
-udisks2
-udiskie
-blueman-applet
-networkmanager
-network-manager-applet 
 alacritty
-termite
+kitty
 chromium
 arandr
 gtk-engine-murrine
 imagemagick
-lxappearance
-lxrandr
 playerctl
 pulseaudio
 pulseaudio-alsa
@@ -53,8 +44,6 @@ sshfs
 ttf-fira-code
 breeze
 w3m
-materia-gtk-theme
-papirus-icon-theme
 ripgrep
 exa
 docker
@@ -64,7 +53,6 @@ x11-ssh-askpass
 rofi
 tmux
 lxqt-openssh-askpass
-x11-ssh-askpass
 mintstick-git
 pamac-aur
 unace
@@ -75,7 +63,6 @@ sharutils
 uudeview
 arj
 cabextract
-file-roller
 htop
 )
 

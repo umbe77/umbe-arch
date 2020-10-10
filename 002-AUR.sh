@@ -17,15 +17,16 @@ pfetch
 teams
 typora
 docker-compose
-snapd
+visual-studio-code-bin
 )
+#snapd
 
 for name in "${list[@]}" ; do
     aur_install $name
 done
 
-echo "Configuring snapd"
-sudo systemctl enable snapd
-sudo systemctl start snapd
-sudo ln -s /var/lib/snapd/snap /snap
+#echo "Configuring snapd"
+#sudo systemctl enable snapd
+#sudo systemctl start snapd
+#sudo ln -s /var/lib/snapd/snap /snap
 

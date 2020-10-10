@@ -10,5 +10,7 @@
 - Run ./install.sh
 - Post-Intallation commands
   - Install nvm and node
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-    - `nvm install 12` in order to install nodejs 12
+    - ```bash
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+      ```
+    - `nvm install 14` in order to install nodejs 14
