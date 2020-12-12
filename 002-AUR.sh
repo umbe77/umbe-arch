@@ -10,12 +10,11 @@ aur_install() {
 }
 
 list=(
-insomnia
+insomnia-bin
 lazydocker
 lazygit
 pfetch
 teams
-typora
 docker-compose
 visual-studio-code-bin
 )
