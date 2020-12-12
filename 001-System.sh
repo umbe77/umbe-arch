@@ -40,7 +40,6 @@ pulseaudio-bluetooth
 bluez
 bluez-libs
 bluez-utils
-blueberry
 python-pip
 qutebrowser
 zenity
@@ -57,8 +56,6 @@ jq
 x11-ssh-askpass
 rofi
 tmux
-lxqt-openssh-askpass
-mintstick-git
 pamac-aur
 unace
 unrar
