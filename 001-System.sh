@@ -70,6 +70,8 @@ arj
 cabextract
 htop
 tlp
+yad
+wmctrl
 )
 
 for name in "${list[@]}" ; do
