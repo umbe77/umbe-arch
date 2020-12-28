@@ -11,9 +11,11 @@ u_install() {
 
 
 list=(
-sddm
+lightdm
+lightdm-webkit2-greeter
 plasma-meta
 kde-applications-meta
+awesome
 bspwm
 sxhkd
 nitrogen
@@ -24,6 +26,7 @@ alacritty
 kitty
 chromium
 firefox
+xorg-xrandr
 arandr
 gtk-engine-murrine
 imagemagick
@@ -36,6 +39,7 @@ alsa-lib
 alsa-plugins
 alsa-utils
 volumeicon
+network-manager-applet
 pulseaudio-bluetooth
 bluez
 bluez-libs
@@ -43,6 +47,7 @@ bluez-utils
 python-pip
 qutebrowser
 zenity
+vim
 neovim
 sshfs
 ttf-fira-code
@@ -88,7 +93,7 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 echo "Enable SDDM"
-sudo systemctl enable sddm.service
+sudo systemctl enable lightdm.service
 
 echo "change defaul shell"
 chsh -s $(which zsh)

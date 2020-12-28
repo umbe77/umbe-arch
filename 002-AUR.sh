@@ -10,6 +10,10 @@ aur_install() {
 }
 
 list=(
+aritim-dark-gtk
+aritim-dark-kde
+tela-icon-theme
+lightdm-webkit-theme-aether
 insomnia-bin
 lazydocker
 lazygit
