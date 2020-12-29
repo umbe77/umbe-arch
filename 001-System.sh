@@ -48,6 +48,7 @@ python-pip
 qutebrowser
 zenity
 vim
+neofetch
 neovim
 sshfs
 ttf-fira-code
