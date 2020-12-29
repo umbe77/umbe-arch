@@ -20,7 +20,6 @@ bspwm
 sxhkd
 nitrogen
 zsh
-unclutter
 picom
 alacritty
 kitty
@@ -61,6 +60,7 @@ docker
 bat
 jq
 x11-ssh-askpass
+xwallpaper
 rofi
 tmux
 pamac-aur

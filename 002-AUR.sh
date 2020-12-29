@@ -15,6 +15,7 @@ aritim-dark-kde
 tela-icon-theme
 lightdm-webkit-theme-aether
 insomnia-bin
+xbanish
 lazydocker
 lazygit
 pfetch
