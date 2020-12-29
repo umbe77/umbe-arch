@@ -50,6 +50,7 @@ zenity
 vim
 neofetch
 neovim
+luarocks
 sshfs
 ttf-fira-code
 breeze
