@@ -43,6 +43,8 @@ pulseaudio-bluetooth
 bluez
 bluez-libs
 bluez-utils
+udisks2
+udiskie
 python-pip
 qutebrowser
 zenity
@@ -55,6 +57,7 @@ ttf-fira-code
 breeze
 w3m
 ripgrep
+fd
 exa
 docker
 bat
