@@ -9,12 +9,13 @@ u_install() {
     fi
 }
 
+#plasma-meta
+#kde-applications-meta
 
 list=(
 lightdm
 lightdm-webkit2-greeter
-plasma-meta
-kde-applications-meta
+dunst
 awesome
 bspwm
 sxhkd
