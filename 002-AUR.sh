@@ -22,6 +22,7 @@ pfetch
 teams
 docker-compose
 visual-studio-code-bin
+azuredatastudio-bin
 )
 #snapd
 

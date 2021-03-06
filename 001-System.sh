@@ -60,6 +60,7 @@ w3m
 ripgrep
 fd
 exa
+lsd
 docker
 bat
 jq
@@ -80,6 +81,7 @@ htop
 tlp
 yad
 wmctrl
+wmname
 )
 
 for name in "${list[@]}" ; do
