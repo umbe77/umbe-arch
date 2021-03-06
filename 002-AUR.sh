@@ -23,6 +23,7 @@ teams
 docker-compose
 visual-studio-code-bin
 azuredatastudio-bin
+onlyoffice-bin
 )
 #snapd
 
