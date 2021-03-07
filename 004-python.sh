@@ -2,6 +2,8 @@
 
 echo "Installing ranger file manager"
 sudo pip3 install ranger-fm
+echo "Installing devicons for ranger"
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 echo "Installing ueberzug"
 sudo pip3 install ueberzug
 echo "Installing pywal"
