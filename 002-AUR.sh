@@ -24,6 +24,9 @@ docker-compose
 visual-studio-code-bin
 azuredatastudio-bin
 onlyoffice-bin
+clipster
+ulauncher
+sublime-test-3
 )
 #snapd
 

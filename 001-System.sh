@@ -82,6 +82,8 @@ tlp
 yad
 wmctrl
 wmname
+polkit,
+lxsession
 )
 
 for name in "${list[@]}" ; do
