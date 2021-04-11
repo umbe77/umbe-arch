@@ -27,6 +27,9 @@ onlyoffice-bin
 clipster
 ulauncher
 sublime-test-3
+gitkraken
+rider
+openfortigui
 )
 #snapd
 

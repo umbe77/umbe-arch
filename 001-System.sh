@@ -84,6 +84,7 @@ wmctrl
 wmname
 polkit,
 lxsession
+openfortivpn
 )
 
 for name in "${list[@]}" ; do
