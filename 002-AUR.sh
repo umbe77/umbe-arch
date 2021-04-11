@@ -5,7 +5,7 @@ aur_install() {
         echo "Package "$1" just installed"
     else
         echo "Installing package "$1""
-        yay -S --noconfirm --needed $1
+        paru -S --noconfirm --needed $1
     fi
 }
 
@@ -30,6 +30,7 @@ sublime-test-3
 gitkraken
 rider
 openfortigui
+bottom
 )
 #snapd
 
