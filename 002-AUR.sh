@@ -23,6 +23,7 @@ teams
 docker-compose
 visual-studio-code-bin
 azuredatastudio-bin
+mongodb-compass
 onlyoffice-bin
 clipster
 ulauncher
@@ -31,6 +32,8 @@ gitkraken
 rider
 openfortigui
 bottom
+code-minimap-bin
+xclip
 )
 #snapd
 
